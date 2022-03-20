@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    background-image: url(../images/header/header_background_2.png) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration: underline 2px rgba(255, 255, 255, 0);
+    transition: text-decoration-color 0.3s;
+}
+
+a:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration-color: rgb(0, 0, 0, 1);
+}
+
+.header_container {
+    height: 100%;
+}
+
+footer {
+    background-color: black;
+    height: 200px;
+}
